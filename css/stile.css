@@ -52,7 +52,6 @@ body{
     background-color: #025259;
 }
 .sfondo01 img{
-    height: 90vh;
     object-fit: cover;
     margin: 20vh 0;
 }
@@ -222,7 +221,5 @@ body{
     }
 
     /* Fascia 3 */
-    .immagine01{
-        
-    }
+    
 }
