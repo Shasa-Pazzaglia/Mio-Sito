@@ -1,31 +1,92 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <title>Dario Sturniolo</title>
-        <link rel="stylesheet" href="bootstrap-grid.css">
-        <style>
-            body {
-                font-family: Arial, sans-serif;
-                background-image: radial-gradient(circle, #ff00ff, #00ffff);
-                background-attachment: fixed;
-                margin: 0;
-                padding: 0;
-            }
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Shasa Pazzaglia | Onepage Site</title>
+        <link rel="stylesheet" href="css/bootstrap-grid.css">
+        <link rel="stylesheet" href="css/stile.css">
 
-            h1 {
-                color: #ffffff;
-                text-align: center;
-                margin-top: 50px;
-                font-size: 3rem;
-                text-shadow: 2px 2px 3px rgba(0, 0, 0, 0.5);
-            }
-            .centro {
-                text-align: center;
-                justify-content: center;
-            }
-        </style>
+        <!-- Collego i font alla pagina -->
+        <!-- Pacifico -->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Pacifico&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+        <!-- Outfit -->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Outfit:wght@100..900&family=Pacifico&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
     </head>
     <body>
-        <h1 class="centro">PEFFORZA!!</h1>
+        <div class="container-fluid">
+            <!-- Fascia 1 | Header -->
+            <div class="row header">
+                <div class="col-md-5 nav-wrapper d-none d-lg-block">
+                    <ul class="nav-list">
+                        <li class="nav-item">
+                            <a href="#" class="nav-link">Chi sono</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#" class="nav-link">Progetti</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="col-md-2 d-flex justify-content-center align-items-center">
+                    <a href="#" class="Logo01" alt="Logo Shasa Pazzaglia">Shasa<br>Pazzaglia</a>
+                </div>
+                <div class="col-md-5 nav-wrapper d-none d-lg-block">
+                    <ul class="nav-list">
+                        <li class="nav-item">
+                            <a href="#" class="nav-link">Hobby</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#" class="nav-link">Contatti</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="col-10 col-md-1 nav-wrapper d-flex d-md-none justify-content-end">
+                    <ul class="list-icon">
+                        <li class="icon">
+                            <a href="#" class="nav-item">
+                                <img src="img/icon/hamburger-menu.svg" alt="Menu" class="hamburger-menu">
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+
+            <!-- Fascia 2 | Slider -->
+            <div class="row">
+                <div class="video-background-container">
+                    <video autoplay muted loop playsinline class="background-video">
+                        <source src="clip/GIOCO_ADOLESCENTI.mp4" type="video/mp4">
+                    </video>
+                    <div class="content col-md-4">
+                        <h1 class="testo-h1">Il design<br>come:<br><span class="gioco">Gioco</span></h1>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Fascia 3 | Chi sono -->
+             <div class="row align-items-center justify-content-center sfondo01 mb-5">
+                <img src="img/Ritratto.jpeg" class="immagine01 col-12 col-md-5">
+                <div class="col-12 col-md-5">
+                    <h1 class="titolo01">Chi sono</h1>
+                    <p class="testo01">
+                        Mi chiamo Shasa Pazzaglia e sono uno studente del secondo anno di design all’Università di San Marino. 
+                        All’interno del percoso di studi ho affrontato e affronterò l’ambito del design in molte sue sfaccettature, dal design del prodotto, alla comunicazione visiva e grafica, fino all’arredo d’interni.<br><br>
+                        I miei interessi spaziano principalmente nel mondo del <span class="parole">graphic design</span>, <span class="parole">web design</span> e sopratutto <span class="parole">game design</span>, ambito in cui
+                        mi piacerebbe lavorare in futuro.
+                    </p>
+                </div>
+            </div>
+
+            <!-- Fascia 4 | Progetti -->
+            <div class="row align-items-center justify-content-center text-center">
+                <h1 class="titolo02 col-md-6">Uno sguardo ai <br>miei <span class="parole-titoli">Progetti</span></h1>
+            </div>
+
+            <!-- Fascia 5 | Progetto 1-->
+        </div>
     </body>
 </html>
