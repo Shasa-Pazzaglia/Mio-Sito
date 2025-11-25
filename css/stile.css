@@ -94,6 +94,11 @@ html::-webkit-scrollbar, body::-webkit-scrollbar {
     border-bottom-left-radius: 50px;
     border-top-left-radius: 50px;
 }
+.immagine03{
+    border-radius: 50px;
+    height: 400px;
+    object-fit: cover;
+}
 
 /* stile Fascia 1 | Header */
 .header{
