@@ -3,6 +3,17 @@ body{
     margin: 0;
     background-color: #F4E2DE;
 }
+/* Nascondi scrollbar su tutto il sito */
+html, body {
+    overflow: auto;
+    scrollbar-width: none;
+    -ms-overflow-style: none;
+    scroll-behavior: smooth;
+}
+html::-webkit-scrollbar, body::-webkit-scrollbar {
+    display: none;
+}
+
 /* stili loghi */
 .Logo01{
     font-family: Pacifico, sans-serif;
@@ -45,6 +56,18 @@ body{
     font-family: Outfit, sans-serif;
     color: #025259;
     margin: 20vh 0;
+}
+.titolo03{
+    font-size: 24px;
+    font-family: Outfit, sans-serif;
+    font-weight: semi-bold;
+    color: #025259;
+}
+.titolo04{
+    font-size: 80px;
+    font-family: Outfit, sans-serif;
+    font-weight: bold;
+    color: #D94F04;
 }
 
 /* stili sfondi */
@@ -97,8 +120,19 @@ body{
     font-weight: 400;
     line-height: 22px;
 }
-.nav-link:hover {
-    border-bottom: solid 4px #F29325;
+.nav-link:after{
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 0;
+    height: 2px;
+    background-color: #F29325;
+    transition: width 0.3s ease-in-out;
+    transform-origin: right;
+}
+.nav-link:hover:after {
+    width: 100%;
 }
 /* stile icon */
 .list-icon{
@@ -175,6 +209,7 @@ body{
     font-weight: 400;
     line-height: 114px;
 }
+
 
 /* media query */
 @media (max-width: 768px) {
