@@ -101,6 +101,16 @@ html::-webkit-scrollbar, body::-webkit-scrollbar {
     height: 400px;
     object-fit: cover;
 }
+.immagine04{
+    width: 506px;
+    height: 716px;
+    object-fit: cover;
+}
+.immagine05{
+    width: 670px;
+    height: 400px;
+    border-radius: 50px;
+}
 
 /* stile Fascia 1 | Header */
 .header{
