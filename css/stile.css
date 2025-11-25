@@ -42,6 +42,12 @@ html::-webkit-scrollbar, body::-webkit-scrollbar {
     color: #1E1E1E;
     font-size: 20px;
 }
+.email{
+    font-family: Outfit, sans-serif;
+    color: #1E1E1E;
+    font-size: 20px;
+    font-weight: 600;
+}
 .parole{
     color: #F29325;
 }
@@ -74,12 +80,30 @@ html::-webkit-scrollbar, body::-webkit-scrollbar {
     font-weight: bold;
     color: #D94F04;
 }
+.titolo05{
+    font-size: 64px;
+    font-family: Outfit, sans-serif;
+    font-weight: bold;
+    color: #FFFFFF;
+    margin: 10vh 0;
+}
+.titolo06{
+    font-size: 20px;
+    font-family: Outfit, sans-serif;
+    font-weight: semi-bold;
+    color: #F29325;
+}
+.titolo07{
+    font-size: 48px;
+    font-family: Pacifico, sans-serif;
+    color: #025259;
+}
 
 /* stili sfondi */
 .sfondo01{
     background-color: #025259;
 }
-.sfondo01 img{
+.sfondo01 .immagine01{
     object-fit: cover;
     margin: 20vh 0;
 }
@@ -110,6 +134,32 @@ html::-webkit-scrollbar, body::-webkit-scrollbar {
     width: 670px;
     height: 400px;
     border-radius: 50px;
+}
+.immagine06{
+    border-radius: 50px;
+    object-fit: cover;
+}
+
+/* stili bottoni */
+.bottone01{
+    width: 210px;
+    height: 54px;
+    border: none;
+    border-radius: 12px;
+    background: #D94F04;
+}
+.testo-btn1{
+    font-family: Outfit, sans-serif;
+    color: #FFFFFF;
+    font-size: 18px;
+    font-weight: 600;
+}
+.bottone02{
+    width: 210px;
+    height: 54px;
+    border: 1px solid #D94F04;
+    border-radius: 12px;
+    background: #FFFFFF;
 }
 
 /* stile Fascia 1 | Header */
