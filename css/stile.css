@@ -37,6 +37,11 @@ html::-webkit-scrollbar, body::-webkit-scrollbar {
     color: #ffffff;
     font-size: 20px;
 }
+.testo02{
+    font-family: Outfit, sans-serif;
+    color: #1E1E1E;
+    font-size: 20px;
+}
 .parole{
     color: #F29325;
 }
@@ -82,6 +87,12 @@ html::-webkit-scrollbar, body::-webkit-scrollbar {
 /* stili immagini */
 .immagine01{
     border-radius: 50px;
+}
+.immagine02{
+    padding: 0;
+    margin: 0;
+    border-bottom-left-radius: 50px;
+    border-top-left-radius: 50px;
 }
 
 /* stile Fascia 1 | Header */
@@ -153,7 +164,7 @@ html::-webkit-scrollbar, body::-webkit-scrollbar {
     color: #F29325;
 }
 
-/* stile Fascia 2 | Slider */
+/* stile Fascia 2 | Video Background */
 .video-background-container{
     position: relative;
     width: 100%;
