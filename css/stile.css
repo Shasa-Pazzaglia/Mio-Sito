@@ -24,12 +24,16 @@ html::-webkit-scrollbar, body::-webkit-scrollbar {
     text-align: center;
     display: inline-block;
 }
-
-/* Per il footer
 .Logo02{
-    
+    font-family: Pacifico, sans-serif;
+    font-size: 32px;
+    line-height: 32px;
+    color: #D94F04;
+    text-decoration: none;
+    text-align: center;
+    display: inline-block;
+    margin: 5vh 0 0 0;
 }
-*/
 
 /* stili testi */
 .testo01{
@@ -288,6 +292,7 @@ html::-webkit-scrollbar, body::-webkit-scrollbar {
     flex-shrink: 0;
     margin-top: 25vh;
     text-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+    align-items: center;
 }
 .testo-h1{
     color: #FFF;
