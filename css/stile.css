@@ -44,7 +44,7 @@ html::-webkit-scrollbar, body::-webkit-scrollbar {
 }
 .email{
     font-family: Outfit, sans-serif;
-    color: #1E1E1E;
+    color: #025259;
     font-size: 20px;
     font-weight: 600;
 }
@@ -92,11 +92,6 @@ html::-webkit-scrollbar, body::-webkit-scrollbar {
     font-family: Outfit, sans-serif;
     font-weight: semi-bold;
     color: #F29325;
-}
-.titolo07{
-    font-size: 48px;
-    font-family: Pacifico, sans-serif;
-    color: #025259;
 }
 
 /* stili sfondi */
@@ -147,6 +142,8 @@ html::-webkit-scrollbar, body::-webkit-scrollbar {
     border: none;
     border-radius: 12px;
     background: #D94F04;
+    margin: 0 10px;
+    transition: background-color 0.3s ease, opacity 0.3s ease;
 }
 .testo-btn1{
     font-family: Outfit, sans-serif;
@@ -160,7 +157,28 @@ html::-webkit-scrollbar, body::-webkit-scrollbar {
     border: 1px solid #D94F04;
     border-radius: 12px;
     background: #FFFFFF;
+    margin: 0 10px;
+    transition: background-color 0.3s ease, opacity 0.3s ease;
 }
+.testo-btn2{
+    font-family: Outfit, sans-serif;
+    color: #D94F04;
+    font-size: 18px;
+    font-weight: 600;
+}
+.bottone01:hover{
+    cursor: pointer;
+    background-color: #F29325;
+}
+.bottone02:hover{
+    cursor: pointer;
+    background-color: #F29325;
+}
+.bottone02:hover .testo-btn2 {
+    color: #FFFFFF;
+    border-color: #F29325;
+}
+
 
 /* stile Fascia 1 | Header */
 .header{
