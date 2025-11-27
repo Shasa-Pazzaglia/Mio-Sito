@@ -234,6 +234,50 @@ html::-webkit-scrollbar, body::-webkit-scrollbar {
 .nav-link:hover:after {
     width: 100%;
 }
+
+.nav-list-footer{
+    list-style: none;
+    padding-left: 0;
+    display: flex;
+    justify-content: space-around;
+}
+.nav-item-footer{
+    position: relative;
+}
+.nav-link-footer{
+    position: relative;
+    display: inline-block;
+    border-bottom: solid 4px transparent;
+    text-decoration: none;
+    margin: 8px;
+    padding: 8px;
+    white-space: nowrap;
+    display: flex;
+    align-items: center;
+
+    font-family: Outfit, sans-serif;
+    font-size: 24px;
+    font-style: normal;
+    color: #F29325;
+    font-weight: 400;
+    line-height: 22px;
+}
+.nav-link-footer:after{
+    content: "";
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    width: 0;
+    height: 2px;
+    background-color: #F29325;
+    transition: width 0.3s ease-in-out;
+    margin: 0 auto;
+}
+.nav-link-footer:hover:after {
+    width: 100%;
+}
+
 /* stile icon */
 .list-icon{
     list-style: none;
@@ -335,7 +379,7 @@ html::-webkit-scrollbar, body::-webkit-scrollbar {
         height: 50px;
     }
 
-    /* Slider */
+    /* Fascia 2 */
     .content {
         width: 90%;
         margin-left: 5%;
