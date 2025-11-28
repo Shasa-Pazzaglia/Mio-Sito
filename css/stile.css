@@ -46,6 +46,13 @@ html::-webkit-scrollbar, body::-webkit-scrollbar {
     color: #1E1E1E;
     font-size: 20px;
 }
+.testo03{
+    font-family: Outfit, sans-serif;
+    color: #FFFFFF;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+}
 .email{
     font-family: Outfit, sans-serif;
     color: #025259;
@@ -203,10 +210,10 @@ html::-webkit-scrollbar, body::-webkit-scrollbar {
 }
 .nav-item{
     position: relative;
-    margin: 0;
-    padding: 0;
 }
 .nav-link{
+    position: relative;
+    display: inline-block;
     border-bottom: solid 4px transparent;
     text-decoration: none;
     margin: 8px;
@@ -252,9 +259,8 @@ html::-webkit-scrollbar, body::-webkit-scrollbar {
     margin: 8px;
     padding: 8px;
     white-space: nowrap;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+    display: block;
+    text-align: center;
 
     font-family: Outfit, sans-serif;
     font-size: 24px;
