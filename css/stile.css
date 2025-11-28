@@ -96,7 +96,7 @@ html::-webkit-scrollbar, body::-webkit-scrollbar {
     font-family: Outfit, sans-serif;
     font-weight: bold;
     color: #FFFFFF;
-    margin: 10vh 0;
+    margin: 5vh 0;
 }
 .titolo06{
     font-size: 20px;
@@ -142,6 +142,7 @@ html::-webkit-scrollbar, body::-webkit-scrollbar {
     border-radius: 50px;
 }
 .immagine06{
+    height: 310px;
     border-radius: 50px;
     object-fit: cover;
 }
