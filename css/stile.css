@@ -363,6 +363,46 @@ html::-webkit-scrollbar, body::-webkit-scrollbar {
     line-height: 114px;
 }
 
+/* stile Menu Mobile */
+.mobile-menu {
+    position: fixed;
+    top: 0;
+    right: -100%;
+    width: 80%;
+    max-width: 300px;
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.4);
+    z-index: 9999;
+    transition: right 0.3s ease-in-out;
+    overflow-y: auto;
+    padding-top: 10vh;
+}
+
+.mobile-menu.active {
+    right: 0;
+}
+
+.mobile-nav-list {
+    list-style: none;
+    padding: 20px;
+    margin: 0;
+}
+
+.mobile-nav-item {
+    margin: 20px 0;
+    text-align: center;
+}
+
+.mobile-menu .nav-link {
+    color: #F29325;
+    font-size: 24px;
+    display: block;
+    padding: 15px;
+}
+
+.mobile-menu .nav-link:after {
+    display: none;
+}
 
 /* media query */
 @media (max-width: 768px) {

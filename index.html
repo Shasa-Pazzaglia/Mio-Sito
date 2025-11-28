@@ -47,13 +47,29 @@
                 <div class="col-10 col-md-1 nav-wrapper d-flex d-md-none justify-content-end">
                     <ul class="list-icon">
                         <li class="icon">
-                            <a href="#" class="nav-item">
-                                <img src="img/icon/hamburger-menu.svg" alt="Menu" class="hamburger-menu">
-                            </a>
+                            <img src="img/icon/hamburger-menu.svg" alt="Menu" class="hamburger-menu">
                         </li>
                     </ul>
                 </div>
             </div>
+
+            <!-- Menu Mobile -->
+             <div class="mobile-menu">
+                <ul class="mobile-nav-list">
+                    <li class="mobile-nav-item">
+                        <a href="#chi-sono" class="nav-link">Chi sono</a>
+                    </li>
+                    <li class="mobile-nav-item">
+                        <a href="#progetti" class="nav-link">Progetti</a>
+                    </li>
+                    <li class="mobile-nav-item">
+                        <a href="#hobby" class="nav-link">Hobby</a>
+                    </li>
+                    <li class="mobile-nav-item">
+                        <a href="#contatti" class="nav-link">Contatti</a>
+                    </li>
+                </ul>
+             </div>
 
             <!-- Fascia 2 | Video Background -->
             <div class="row">
@@ -197,5 +213,20 @@
                 
             </div>
         </div>
+    <script>
+        const hamburgerMenu = document.querySelector('.hamburger-menu');
+        const mobileMenu = document.querySelector('.mobile-menu');
+
+        hamburgerMenu.addEventListener('click', function() {
+            mobileMenu.classList.toggle('active');
+        });
+
+        const mobileLinks = document.querySelectorAll('.mobile-menu .nav-link');
+        mobileLinks.forEach(link => {
+            link.addEventListener('click', function() {
+                mobileMenu.classList.remove('active');
+            });
+        });
+    </script>
     </body>
 </html>
