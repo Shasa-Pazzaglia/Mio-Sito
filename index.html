@@ -86,7 +86,7 @@
             <!-- Fascia 3 | Chi sono -->
              <div id="chi-sono" class="row align-items-center justify-content-center sfondo01 mb-5">
                 <img src="img/Ritratto.jpeg" class="immagine01 col-12 col-md-5">
-                <div class="col-12 col-md-5">
+                <div class="col-12 col-md-5 box-testo01">
                     <h1 class="titolo01">Chi sono</h1>
                     <p class="testo01">
                         Mi chiamo Shasa Pazzaglia e sono uno studente del secondo anno di design all’Università di San Marino. 
@@ -113,7 +113,7 @@
             </div>
             <div class="row align-items-center justify-content-center mb-5">
                 <div class="col-1"></div>
-                <p class="testo02 col-12 col-md-4 justify-content-center">
+                <p class="testo02 col-12 col-md-4 justify-content-center box-testo01">
                     Durante il corso di Lab. di Prodotto 1, al primo anno, abbiamo lavorato con il cartone sperimentandolo in diversi modi e trovando nuovi metodi d’utilizzo. Per l’esame finale ogni gruppo ha progettato un copricapo avendo come brief di progetto quello di creare un cappello per un eroe contemporaneo. Con il mio gruppo abbiamo progettato “<span class="parole">Tandem</span>”, un cappello indossabile solo in coppia per rappresentare l’eroe contemporaneo come una figura che non si fa da sola ma anzi dalla collettività.
                 </p>
                 <div class="col-1"></div>
@@ -122,7 +122,7 @@
 
             <!-- Fascia 6 | Progetto 2-->
             <div class="row mb-5">
-                <img src="img/astoria-logo.jpg" class="immagine03 col-12 col-md-6">
+                <img src="img/astoria-logo.jpg" class="immagine03 img-03 col-12 col-md-6">
                 <div class="col-1"></div>
                 <div class="col-12 col-md-5 justify-content-center d-flex flex-column">
                     <h3 class="titolo03">Lab. di Comunicazione 1</h3>
@@ -130,7 +130,7 @@
                 </div>
             </div>
             <div class="row align-items-center justify-content-center mb-5">
-                <p class="testo02 col-12 col-md-4 justify-content-center">
+                <p class="testo02 col-12 col-md-4 justify-content-center box-testo01">
                     Durante il corso di Laboratorio di Comunicazione al primo anno, ci siamo occupati dello sviluppo dell’identità visiva per l’ex cinema Astoria di Rimini che diventerà un <span class="parole">hub culturale</span> nei prossimi anni. Il progetto ha previsto la creazione del logo, della brand identity e di alcuni materiali di comunicazione come poster e locandine per eventi futuri.
                 </p>
                 <div class="col-1"></div>
@@ -149,7 +149,7 @@
             </div>
             <div class="row align-items-center justify-content-center mb-5">
                 <div class="col-1"></div>
-                <p class="testo02 col-12 col-md-4 justify-content-center">
+                <p class="testo02 col-12 col-md-4 justify-content-center box-testo01">
                     Con la partecipazione del Museo della Linea dei goti di Montegridolfo e del Museo della Linea gotica orientale di Montescudo, abbiamo realizzato un <span class="parole">design game</span> per lo sviluppo di un concept progettuale per un ecomuseo della linea gotica. L’attività è stata svolta durante la settimana dei <span class="parole">Workshop D/venti di Pace</span>, un’iniziativa in occasione dell’anniversario dei 20 anni dell’università di San Marino
                 </p>
                 <div class="col-1"></div>
@@ -226,6 +226,12 @@
             link.addEventListener('click', function() {
                 mobileMenu.classList.remove('active');
             });
+        });
+
+        mobileMenu.addEventListener('click', function(e) {
+        if (e.target === mobileMenu) {
+            mobileMenu.classList.remove('active');
+        }
         });
     </script>
     </body>

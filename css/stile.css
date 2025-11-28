@@ -431,6 +431,9 @@ html::-webkit-scrollbar, body::-webkit-scrollbar {
         width: 90%;
         margin-left: 5%;
         margin-top: 20vh;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
     }
     
     .testo-h1 {
@@ -447,6 +450,47 @@ html::-webkit-scrollbar, body::-webkit-scrollbar {
         height: 100vh;
     }
 
-    /* Fascia 3 */
-    
+
+    .box-testo01{
+        margin-bottom: 5vh;
+    }
+    .testo02{
+        margin-bottom: 5vh;
+    }
+
+    .immagine01{
+        margin-bottom: 3vh;
+    }
+    .immagine02{
+        width: 100%;
+        height: auto;
+        border-radius: 0;
+        margin-bottom: 3vh;
+        object-fit: cover;
+    }
+    .immagine03{
+        width: 100%;
+        height: auto;
+        margin-bottom: 3vh;
+        object-fit: cover;
+    }
+    .immagine04{
+        width: 100%;
+        height: auto;
+        margin-bottom: 3vh;
+        object-fit: cover;
+    }
+    .bottone01, .bottone02{
+        display: block;
+        margin: 0 auto;
+    }
+    .bottone01{
+        margin-bottom: 3vh;
+    }
+
+    .nav-link-footer{
+        display: block;
+        margin: 0 auto;
+        margin-bottom: 3vh;
+    }
 }
