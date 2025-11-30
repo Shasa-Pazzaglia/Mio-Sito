@@ -280,7 +280,7 @@ html::-webkit-scrollbar, body::-webkit-scrollbar {
     height: 2px;
     background-color: #F29325;
     transition: width 0.3s ease-in-out;
-    margin: 0 auto;
+    transform-origin: right;
 }
 .nav-link-footer:hover:after {
     width: 100%;
