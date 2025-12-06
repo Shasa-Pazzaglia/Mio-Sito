@@ -61,6 +61,7 @@ html::-webkit-scrollbar, body::-webkit-scrollbar {
 }
 .parole{
     color: #F29325;
+    font-weight: bold;
 }
 .parole-titoli{
     color: #D94F04;
@@ -487,10 +488,14 @@ html::-webkit-scrollbar, body::-webkit-scrollbar {
     .bottone01{
         margin-bottom: 3vh;
     }
-
+   
     .nav-link-footer{
         display: block;
         margin: 0 auto;
         margin-bottom: 3vh;
+    }
+
+    .row{
+        justify-content: center;
     }
 }
