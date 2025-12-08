@@ -230,14 +230,12 @@
             }
         });
 
-        // Chiudi menu quando clicchi sui link - MODIFICA QUESTA PARTE
         document.addEventListener('click', function(e) {
             if (e.target.matches('.mobile-menu .nav-link')) {
                 mobileMenu.classList.remove('active');
             }
         });
 
-        // Chiudi menu quando clicchi sullo sfondo
         mobileMenu.addEventListener('click', function(e) {
             if (e.target === mobileMenu) {
                 mobileMenu.classList.remove('active');
