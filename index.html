@@ -55,6 +55,9 @@
 
             <!-- Menu Mobile -->
              <div class="mobile-menu">
+                <div class="mobile-menu-header">
+                    <img src="img/icon/cross-svgrepo-com.svg" alt="Chiudi Menu" class="close-icon">
+                </div>
                 <ul class="mobile-nav-list">
                     <li class="mobile-nav-item">
                         <a href="#chi-sono" class="nav-link">Chi sono</a>
@@ -221,17 +224,24 @@
             mobileMenu.classList.toggle('active');
         });
 
-        const mobileLinks = document.querySelectorAll('.mobile-menu .nav-link');
-        mobileLinks.forEach(link => {
-            link.addEventListener('click', function() {
+        mobileMenu.addEventListener('click', function(e) {
+            if (e.target.matches('.close-icon')) {
                 mobileMenu.classList.remove('active');
-            });
+            }
         });
 
+        // Chiudi menu quando clicchi sui link - MODIFICA QUESTA PARTE
+        document.addEventListener('click', function(e) {
+            if (e.target.matches('.mobile-menu .nav-link')) {
+                mobileMenu.classList.remove('active');
+            }
+        });
+
+        // Chiudi menu quando clicchi sullo sfondo
         mobileMenu.addEventListener('click', function(e) {
-        if (e.target === mobileMenu) {
-            mobileMenu.classList.remove('active');
-        }
+            if (e.target === mobileMenu) {
+                mobileMenu.classList.remove('active');
+            }
         });
     </script>
     </body>
